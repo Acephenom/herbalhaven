@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Premium Indica",
+    "description": "A high-quality Indica strain known for its relaxing effects.",
+    "priceKES": 3000,
+    "priceUSD": 30,
+    "strainType": "Indica",
+    "image": "https://example.com/images/premium-indica.jpg",
+    "stock": 50
+  },
+  {
+    "name": "Sativa Bliss",
+    "description": "A refreshing Sativa strain that boosts creativity and energy.",
+    "priceKES": 3500,
+    "priceUSD": 35,
+    "strainType": "Sativa",
+    "image": "https://example.com/images/sativa-bliss.jpg",
+    "stock": 30
+  },
+  {
+    "name": "Hybrid Harmony",
+    "description": "A balanced Hybrid strain that offers the best of both worlds.",
+    "priceKES": 3200,
+    "priceUSD": 32,
+    "strainType": "Hybrid",
+    "image": "https://example.com/images/hybrid-harmony.jpg",
+    "stock": 20
+  },
+  {
+    "name": "CBD Relax",
+    "description": "A CBD-rich strain perfect for relaxation without the high.",
+    "priceKES": 2800,
+    "priceUSD": 28,
+    "strainType": "Indica",
+    "image": "https://example.com/images/cbd-relax.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Sativa Dream",
+    "description": "A dreamy Sativa strain that enhances mood and focus.",
+    "priceKES": 3600,
+    "priceUSD": 36,
+    "strainType": "Sativa",
+    "image": "https://example.com/images/sativa-dream.jpg",
+    "stock": 25
+  }
+]
