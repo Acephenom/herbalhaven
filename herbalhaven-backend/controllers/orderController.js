@@ -14,7 +14,7 @@ exports.createOrder = async (req, res) => {
 };
 
 // Get a single order by ID
-exports.getOrderById = async (req, res) => {
+exports.getOrder= async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
         if (!order) {

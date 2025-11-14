@@ -16,7 +16,6 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(authMiddleware);
 
 
 // Database Connection

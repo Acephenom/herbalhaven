@@ -7,6 +7,6 @@ const stripeController = require('../controllers/stripeController');
 router.post('/mpesa', mpesaController.initiatePayment);
 
 // Stripe Payment
-router.post('/stripe', stripeController.processPayment);
+router.post('/stripe', stripeController.createPaymentIntent);
 
 module.exports = router;

@@ -3,7 +3,7 @@ const Product = require('../models/Product');
 // @desc    Get all products
 // @route   GET /api/products
 // @access  Public
-const getProducts = async (req, res) => {
+const getAllProducts = async (req, res) => {
     try {
         const products = await Product.find({});
         res.status(200).json(products);
@@ -92,9 +92,9 @@ const deleteProduct = async (req, res) => {
 };
 
 module.exports = {
-    getProducts,
+    getAllProducts,
     getProductById,
-    addProduct,
+    createProduct: addProduct,
     updateProduct,
     deleteProduct,
 };
